@@ -1,3 +1,4 @@
+// Button 1
 document.getElementById("card-btn-1")
 .addEventListener("click", function(){
 
@@ -14,7 +15,7 @@ document.getElementById("card-btn-1")
 
     document.getElementById("task-assigned").innerText = taskLeft;
     document.getElementById("task-completed").innerText = taskDone;
-
+// Activity Log
     const activityContainer = document.getElementById("activity-log");
     const newActivity = document.createElement("p");
     newActivity.classList.add("text-center", "bg-[#F4F7FF]", "rounded-lg", "text-base", "w-[90%]", "mx-auto", "p-5", "m-5");
@@ -22,14 +23,15 @@ document.getElementById("card-btn-1")
     console.log(newActivity);
 
     activityContainer.appendChild(newActivity);
-
+// All completed alert
     if(taskLeft===0){
         alert("Congrats!! You have completed all the currrent task.")
     }
-
+// Button Disabled
     document.getElementById("card-btn-1").disabled = true;
 })
 
+// Button 2
 document.getElementById("card-btn-2")
 .addEventListener("click", function(){
 
@@ -62,6 +64,7 @@ document.getElementById("card-btn-2")
     document.getElementById("card-btn-2").disabled = true;
 })
 
+// Button 3
 document.getElementById("card-btn-3")
 .addEventListener("click", function(){
 
@@ -94,6 +97,7 @@ document.getElementById("card-btn-3")
     document.getElementById("card-btn-3").disabled = true;
 })
 
+// Button 4
 document.getElementById("card-btn-4")
 .addEventListener("click", function(){
 
@@ -126,6 +130,7 @@ document.getElementById("card-btn-4")
     document.getElementById("card-btn-4").disabled = true;
 })
 
+// Button 5
 document.getElementById("card-btn-5")
 .addEventListener("click", function(){
 
@@ -158,6 +163,7 @@ document.getElementById("card-btn-5")
     document.getElementById("card-btn-5").disabled = true;
 })
 
+// Button 6
 document.getElementById("card-btn-6")
 .addEventListener("click", function(){
 
@@ -190,6 +196,7 @@ document.getElementById("card-btn-6")
     document.getElementById("card-btn-6").disabled = true;
 })
 
+// Clear History
 document.getElementById("clear-history")
 .addEventListener("click", function(){
     const activityContainer = document.getElementById("activity-log");
@@ -198,11 +205,13 @@ document.getElementById("clear-history")
 
 })
 
+// Go to Blog page
 document.getElementById("go-to-blog")
 .addEventListener("click", function(){
     window.location.href = "./main.html";
 })
 
+// Random Color
 document.getElementById("random-color")
 .addEventListener("click", function(){
         const colorCodes = "0123456789ABCDEF";
@@ -213,6 +222,7 @@ document.getElementById("random-color")
         document.body.style.backgroundColor = colorPalate;
 })
 
+// Time at activity log
 function timeNow(){
     const dateNow = new Date();
     const timeRightNow = new Date().toLocaleTimeString();
@@ -220,3 +230,7 @@ function timeNow(){
     return timeRightNow;
 
 }
+
+// Current Date
+const dateNow = new Date();
+document.getElementById("date-now").innerHTML = dateNow.toDateString();
