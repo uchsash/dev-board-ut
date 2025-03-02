@@ -19,7 +19,7 @@ document.getElementById("card-btn-1")
     const activityContainer = document.getElementById("activity-log");
     const newActivity = document.createElement("p");
     newActivity.classList.add("text-center", "bg-[#F4F7FF]", "rounded-lg", "text-base", "w-[90%]", "mx-auto", "p-5", "m-5");
-    newActivity.textContent = "You have Complete Fix Mobile Button Issue at " + timeNow();
+    newActivity.textContent = "You have Completed Fix Mobile Button Issue at " + timeNow();
     console.log(newActivity);
 
     activityContainer.appendChild(newActivity);
@@ -52,7 +52,7 @@ document.getElementById("card-btn-2")
     const activityContainer = document.getElementById("activity-log");
     const newActivity = document.createElement("p");
     newActivity.classList.add("text-center", "bg-[#F4F7FF]", "rounded-lg", "text-base", "w-[90%]", "mx-auto", "p-5", "m-5");
-    newActivity.textContent = "You have Complete Add Dark Mode at " + timeNow();
+    newActivity.textContent = "You have Completed Add Dark Mode at " + timeNow();
     console.log(newActivity);
 
     activityContainer.appendChild(newActivity);    
@@ -85,7 +85,7 @@ document.getElementById("card-btn-3")
     const activityContainer = document.getElementById("activity-log");
     const newActivity = document.createElement("p");
     newActivity.classList.add("text-center", "bg-[#F4F7FF]", "rounded-lg", "text-base", "w-[90%]", "mx-auto", "p-5", "m-5");
-    newActivity.textContent = "You have Complete Optimize Home page at " + timeNow();
+    newActivity.textContent = "You have Completed Optimize Home page at " + timeNow();
     console.log(newActivity);
 
     activityContainer.appendChild(newActivity); 
@@ -118,7 +118,7 @@ document.getElementById("card-btn-4")
     const activityContainer = document.getElementById("activity-log");
     const newActivity = document.createElement("p");
     newActivity.classList.add("text-center", "bg-[#F4F7FF]", "rounded-lg", "text-base", "w-[90%]", "mx-auto", "p-5", "m-5");
-    newActivity.textContent = "You have Complete Add new emoji at " + timeNow();
+    newActivity.textContent = "You have Completed Add new emoji at " + timeNow();
     console.log(newActivity);
 
     activityContainer.appendChild(newActivity); 
@@ -151,7 +151,7 @@ document.getElementById("card-btn-5")
     const activityContainer = document.getElementById("activity-log");
     const newActivity = document.createElement("p");
     newActivity.classList.add("text-center", "bg-[#F4F7FF]", "rounded-lg", "text-base", "w-[90%]", "mx-auto", "p-5", "m-5");
-    newActivity.textContent = "You have Complete Integrate OpenAI API at " + timeNow();
+    newActivity.textContent = "You have Completed Integrate OpenAI API at " + timeNow();
     console.log(newActivity);
 
     activityContainer.appendChild(newActivity); 
@@ -184,7 +184,7 @@ document.getElementById("card-btn-6")
     const activityContainer = document.getElementById("activity-log");
     const newActivity = document.createElement("p");
     newActivity.classList.add("text-center", "bg-[#F4F7FF]", "rounded-lg", "text-base", "w-[90%]", "mx-auto", "p-5", "m-5");
-    newActivity.textContent = "You have Complete Improve Job searching at " + timeNow();
+    newActivity.textContent = "You have Completed Improve Job searching at " + timeNow();
     console.log(newActivity);
 
     activityContainer.appendChild(newActivity); 
